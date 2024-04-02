@@ -50,10 +50,11 @@
         </div>
     </header>
     
-    <main class="bg-yellow">
-        <div class="bg-lightblue">
+    <main>
+        
+        <!-- title and jumbotron section -->
+        <div class="bg-lightblue"> 
             <div class="container" id="jumbotron">    
-                <!-- title and jumbotron section -->
                 <div class="row f-wrap">
                     <div class="col100">
                         <!-- main title -->
@@ -76,15 +77,19 @@
         </div>
 
         <div class="container-sm">
-        
+
             <!-- choose plan section -->
-            <div class="row f-wrap">
-                <div class="col100 h-100 bg-blue">
+            <div class="row f-wrap" id="plans">
+                <div class="col100">
                     <!-- section title -->
+                    <h2>Trova il piano buisness che fa per te</h2>
                 </div>
 
-                <div class="col100 h-100 bg-blue">
-                    <!-- radio button payment periodicity -->
+                <div class="col100">
+                    <input type="radio" name="payment" id="monthly">
+                    <label for="monthly">Fatturazione Mensile</label>
+                    <input type="radio" name="payment" id="yearly">
+                    <label for="yearly">Fatturazione Annuale</label>
                 </div>
 
                 <!-- list of plans -->
@@ -92,6 +97,45 @@
                     <div class="row sp-between">
                         <div class="col33-10 bg-green h-700">
                             <!-- first plan -->
+                            <div class="plan-card">
+                                <div>
+                                    <!-- kind of target -->
+                                </div>
+                                <div>
+                                    <!-- plan description -->
+                                    <h4><!-- plan title --></h4>
+                                    <h6><!-- price --></h6>
+                                    <div><!-- price descritpion --></div>
+
+                                    <div><!-- users number --></div>
+                                    <div><!-- archiviation space --></div>
+                                    <div><!-- bonus features --></div>
+
+                                    <button class="btn blue">
+                                        Prova gratis per 30 giorni
+                                    </button>
+
+                                    <div><!-- or buy now CTA --></div>
+
+                                    <hr>
+
+                                    <h6>Punti salienti del piano</h6>
+                                    <ul>
+                                        <li>
+                                            <i><!-- blue checkmark --></i>
+                                            <span><!-- feature --></span>
+                                        </li>
+                                        <li>
+                                            <i><!-- blue checkmark --></i>
+                                            <span><!-- feature --></span>
+                                        </li>
+                                        <li>
+                                            <i><!-- blue checkmark --></i>
+                                            <span><!-- feature --></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <div class="col33-10 bg-green h-700">
                             <!-- second plan -->

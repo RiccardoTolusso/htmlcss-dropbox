@@ -130,6 +130,26 @@ h1{
     transform-origin: top left;
 }
 
+
+    /* > plans section */
+#plans h2{
+    font-size: 2.2em;
+    padding-top: 200px;
+    margin-bottom: 70px;
+}
+
+#plans input[type=radio]{
+    scale: 150%;
+    margin-right: 5px;
+}
+#plans input[type=radio]:nth-of-type(2){
+    margin: 0px 5px 50px 100px;
+}
+
+
+
+
+
 .square{
     width: 50%; /* same as (100vw / 6)*/
     height: calc(100vw / 6);
