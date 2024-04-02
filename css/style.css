@@ -10,6 +10,11 @@
     margin: 0 auto;
 }
 
+.container-sm{
+    max-width: 992px;
+    margin: 0 auto;
+}
+
 .row{
     display: flex;
 }
@@ -28,6 +33,14 @@
 
 .col33-10{
     width: calc(100%/3 - 10px);
+}
+
+.col40-10{
+    width: calc(40% - 10px);
+}
+
+.col60{
+    width: 60%;
 }
 
 .col66{
