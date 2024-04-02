@@ -146,9 +146,86 @@ h1{
     margin: 0px 5px 50px 100px;
 }
 
+        /* >> plans cards area */
+.plan-card{
+    height: 100%;
+}
 
+.plan-card, .plan-card hr{
+    border: 1px solid rgba(182, 182, 182, 0.559);
+}
 
+.plan-card div:nth-child(2){
+    padding: 0px 20px;
+}
 
+.plan-card .target,
+.enterprise-card .target{
+    text-align: center;
+    border-bottom: 1px solid rgba(182, 182, 182, 0.559);
+    padding: 10px;
+}
+
+.plan-card h4{
+    font-size: 1.7em;
+    margin-top: 40px;
+}
+
+.plan-card .price{
+    margin: 30px 0px 10px 0px;
+}
+
+.plan-card .price + div{
+    font-style: italic;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.plan-card .feat{
+    margin: 20px 0px;
+    display: flex;
+}
+
+.plan-card .feat i{
+    margin-right: 6px;
+}
+
+.plan-card button{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.plan-card .buy-now{
+    margin: 40px 0px;
+}
+
+.plan-card .buy-now a{
+    color: blue;
+}
+
+.plan-card hr{
+    width: 70px;
+}
+
+.plan-card h6:not([class="price"]){
+    margin: 50px 0px 30px;
+}
+
+.plan-card ul{
+    list-style-type: none;
+}
+
+.plan-card li {
+    margin-top: 15px;
+    display: flex;
+}
+
+.plan-card ul i{
+    color: rgb(0, 98, 255);
+    margin-right: 5px;
+}
+
+        /* >> enterprise cards area  */
 
 .square{
     width: 50%; /* same as (100vw / 6)*/
