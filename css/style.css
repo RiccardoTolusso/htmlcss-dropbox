@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 
-.row{
+.row, .d-flex{
     display: flex;
 }
 
@@ -33,6 +33,10 @@
 
 .col33-10{
     width: calc(100%/3 - 10px);
+}
+
+.col33{
+    width: calc(100%/3);
 }
 
 .col40-10{
@@ -58,4 +62,9 @@
 
 main{
     padding: 30px;
+}
+
+.square{
+    width: 50%; /* same as (100vw / 6)*/
+    height: calc(100vw / 6);
 }
