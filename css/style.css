@@ -26,15 +26,15 @@
     justify-content: space-between;
 }
 
-.col-33{
+.col33-10{
     width: calc(100%/3 - 10px);
 }
 
-.col-66{
+.col66{
     width: calc(100% * 2 / 3);
 }
 
-.col-100{
+.col100{
     width: 100%;
 }
 
