@@ -119,6 +119,17 @@ h1{
     font-size: 50px;
 }
 
+#jumbotron .jumbo-text{
+    position: relative;
+    height: 100%;
+}
+
+#jumbotron img{
+    width: 100%;
+    transform: scale(1.2);
+    transform-origin: top left;
+}
+
 .square{
     width: 50%; /* same as (100vw / 6)*/
     height: calc(100vw / 6);
