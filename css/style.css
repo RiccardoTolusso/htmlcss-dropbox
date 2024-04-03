@@ -93,7 +93,7 @@ header ul li a{
 /* FINE HEADER */
 
 /* INIZIO MAIN */
-main{
+main , header, footer{
     font-family: sans-serif;
 }
     /* > jumbotron section */
@@ -405,6 +405,38 @@ h1{
 /* FINE MAIN */
 
 /* INZIO FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer h4{
+    font-size: 1.7em;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+footer li{
+    margin: 20px 0px;
+}
+footer hr{
+    width: 10%;
+}
+
+footer #language{
+    margin: 50px 0px;
+}
+footer #language span{
+    margin-left: 5px;
+}
+footer #language i:last-child{
+    transform: translateY(6px);
+}
+/* FINE FOOTER */
 
 .btn{
     padding: 10px 20px;
