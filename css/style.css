@@ -65,7 +65,7 @@
 /* FINE CLASSI DI LAYOUT */
 
 body *{
-    font-size: 20px;
+    font-size: 16px;
 }
 /* INIZIO HEADER */
 header{
@@ -133,7 +133,7 @@ h1{
 
     /* > plans section */
 #plans h2{
-    font-size: 2.2em;
+    font-size: 2.6em;
     padding-top: 200px;
     margin-bottom: 70px;
 }
@@ -149,6 +149,7 @@ h1{
         /* >> plans cards area */
 .plan-card{
     height: 100%;
+    padding-bottom: 30px;
 }
 
 .plan-card, .plan-card hr{
@@ -226,10 +227,142 @@ h1{
 }
 
         /* >> enterprise cards area  */
+.enterprise-card{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(182, 182, 182, 0.559);
+}
+
+.enterprise-card .row{
+    padding: 40px 30px;
+}
+
+.enterprise-card h4{
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.enterprise-card p{
+    margin-top: 50px;
+}
+
+.enterprise-card button{
+    margin-left: 35px;
+    white-space: nowrap;
+}
+
+
+    /* > partner section */
+#partner-section{
+    margin-top: 160px;
+}
+
+#partner-section img{
+    max-width: 100%;
+}
+
+#partner-section div:nth-last-child(1){
+    padding: 30px;
+}
+
+#partner-section h4{
+    font-size: 1.7em;
+}
+
+#partner-section p{
+    padding: 30px 0px;
+}
+
+    /* > more-section */
+#more-section h2{
+    font-size: 2.6em;
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+#more-section img{
+    max-width: 100%;
+}
+
+#more-section h4{
+    margin-top: 10px;
+    font-size: 1.7em;
+    margin-bottom: 30px;
+}
+
+#more-section p{
+    margin-bottom: 70px;
+}
+
+    /* > ross-section */
+
+#ross-section h2{
+    font-size: 2.6em;
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+#ross-section a{
+    display: block;
+    color: blue;
+    margin-bottom: 80px;
+}
+
+    /* > squares section */
 
 .square{
     width: 50%; /* same as (100vw / 6)*/
     height: calc(100vw / 6);
+    position: relative;
+}
+
+.square img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.square.designit{
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+.square.asu{
+    background-color: #61082B;
+}
+.square.uf{
+    background-color: #0093CE;
+}
+.square.topps{
+    background-color: #FF1C1C;
+}
+.square.wbr{
+    background-color: #D5001F;
+}
+.square.hearst{
+    background-color: #B4D0E7;
+}
+.square.lplanet{
+    background-color: #0D2481;
+}
+.square.clearch{
+    background-color: #FFD830;
+}
+
+#central-square{
+    padding: 50px;
+}
+
+#central-square img{
+    width: 60%;
+}
+
+#central-square hr{
+    width: 20%;
+    border-color: rgba(182, 182, 182, 0.559);
+    margin: 50px 0px;
 }
 /* FINE MAIN */
 
@@ -240,4 +373,9 @@ h1{
 .btn.blue{    
     color: white;
     background-color: rgb(0, 98, 255);
+}
+.btn.white{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
