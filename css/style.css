@@ -364,7 +364,47 @@ h1{
     border-color: rgba(182, 182, 182, 0.559);
     margin: 50px 0px;
 }
+    /* > free tryal section */
+#free-tryal h2{
+    font-size: 2.6em;
+    color: #61082B;
+    margin: 120px 0px;   
+}
+
+#free-tryal button{
+    margin: 120px 0px 120px 10%;
+    padding: 15px 0px;
+    border: none;
+    width: 90%;
+}
+
+    /* >FAQ section */
+#faq h2{
+    font-size: 2.6em;
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
+
+#faq ul{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 160px;
+}
+#faq li{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#faq i{
+    padding: 40px 20px;
+}
+
+
 /* FINE MAIN */
+
+/* INZIO FOOTER */
 
 .btn{
     padding: 10px 20px;
